@@ -1,7 +1,10 @@
 import json
 import os
+from pathlib import Path
 
-TOKEN_FILE = "Study_project/token.json"
+
+PROJECT_ROOT = Path(__file__).parent.parent
+TOKEN_FILE = PROJECT_ROOT / "token.json"
 
 def save_token(token):
     with open(TOKEN_FILE, "w") as f:

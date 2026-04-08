@@ -1,7 +1,9 @@
 import json
 import os
+from pathlib import Path
 
-ID_FILE = "Study_project/current_products_id.json"
+PROJECT_ROOT = Path(__file__).parent.parent
+ID_FILE = PROJECT_ROOT / "token.json"
 
 def save_id(first_prod_id):
     with open(ID_FILE, "w") as f:

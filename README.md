@@ -80,4 +80,10 @@ pytest --lf
 
 # Отладка с выводом print
 pytest -s
-# Python-Playwright-Allure-API-UI-
+
+## Примечания
+Ошибка при регистрации
+AssertionError: Не удалось зарегистрировать пользователя
+<APIResponse url='https://api.practicesoftwaretesting.com/users/register' status=422 status_text='Unprocessable Content'>.status
+Пользователь с таким first_name и email остался в базе
+Решение найти его по ID и удалить вручую с async def test_delete_user

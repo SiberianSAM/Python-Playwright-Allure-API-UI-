@@ -21,7 +21,7 @@ incorrect_data = {
 }
 
 new_user_data = {
-  "first_name": "Tes1",
+  "first_name": "Test",
   "last_name": "Test54",
   "address": {
     "street": "Test Street 54",
@@ -33,7 +33,7 @@ new_user_data = {
   "phone": "88888888",
   "dob": "2000-01-01",
   "password": "Test@test@test54",
-  "email": "Test.user7@mail.ru"
+  "email": "Test.user1@mail.ru"
 
 }
 
