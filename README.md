@@ -38,6 +38,7 @@ allure serve allure-results
 
 ## Структура проекта
 
+```
 Study_project/
 ├── conftest.py
 ├── pytest.ini
@@ -70,7 +71,7 @@ Study_project/
     ├── button_page.py
     ├── cart_page.py
     └── product_page.py
-
+```
 
 ## Полезные команды
 
