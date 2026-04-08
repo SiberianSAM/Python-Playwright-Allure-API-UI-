@@ -39,38 +39,37 @@ allure serve allure-results
 ## Структура проекта
 
 Study_project/
-├── allure-results/
-├── API/                 
-│   ├── tests/
-│   │   ├── __init__.py
-│   │   ├── test_api_login.py
-│   │   └── test_api_products.py
-│   ├─ utils/
-│   │   ├── __init__.py
-│   │   ├── products_id.py
-│   │   ├── schemas.py
-│   │   └── test_data.py
-│   ├─__init__.py
-│   ├─ base_api.py 
-│   ├─ login_api.py
-│   ├─ products_api.py
-│   └── token_storage.py
-├── pages/   
-├── tests/   
-
-├── tests/               # Тесты
-│   ├── conftest.py
-│   └── test_products.py
-├── data/                # Тестовые данные
-│   └── test_data.json
-├── utils/               # Утилиты
-│   └── helpers.py
-├── .                 # Переменные окружения
+├── conftest.py
+├── pytest.ini
+├── tests/
+│   ├── test_login.py
+│   ├── __init__.py
+│   └── test_order.py
+├── __init__.py
+├── README.md
 ├── .gitignore
-├──
-├── requirements.txt
-└── README.md
-
+├── API/
+│   ├── base_api.py
+│   ├── login_api.py
+│   ├── tests/
+│   │   ├── test_api_login.py
+│   │   ├── test_api_products.py
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── schemas.py
+│   │   ├── products_id.py
+│   │   └── test_data.py
+│   ├── token_storage.py
+│   └── products_api.py
+└── pages/
+    ├── base_page.py
+    ├── login_page.py
+    ├── __init__.py
+    ├── button_page.py
+    ├── cart_page.py
+    └── product_page.py
 
 
 ## Полезные команды
