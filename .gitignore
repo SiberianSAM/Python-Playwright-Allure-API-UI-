@@ -1,0 +1,9 @@
+token.json
+current_products_id.json
+allure-results
+
+.DS_Store
+*.temp
+*.cache
+__pycache__/
+.venv/
